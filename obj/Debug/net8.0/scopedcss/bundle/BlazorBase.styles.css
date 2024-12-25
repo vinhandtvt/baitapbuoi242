@@ -1,0 +1,485 @@
+/* _content/BlazorBase/Pages/About.razor.rz.scp.css */
+.about-container[b-90wqw7swo0] {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.heading[b-90wqw7swo0] {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: "Saira Extra Condensed", "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif, , "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  line-height: 1.2;
+  color: #343a40;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.heading span[b-90wqw7swo0] {
+  color: #bd5d38;
+}
+
+.social-icons[b-90wqw7swo0] {
+  display: flex;
+  gap: 24px;
+}
+
+.social-icons .icon[b-90wqw7swo0] {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-icons .icon:hover[b-90wqw7swo0] {
+  background: coral;
+}
+.social-icons .icon .social-icon-svg[b-90wqw7swo0] {
+  width: 24px;
+  display: flex;
+  height: 24px;
+}
+/* _content/BlazorBase/Pages/Awards.razor.rz.scp.css */
+.awards-container[b-jvlxeczipd] {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #f8f9fa;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  flex-direction: column;
+  font-family: "Saira Extra Condensed", "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+
+.heading[b-jvlxeczipd] {
+  margin-bottom: 3rem;
+  font-size: calc(1.475rem + 2.7vw);
+  text-transform: uppercase;
+}
+
+.awards-item[b-jvlxeczipd] {
+  width: 100%;
+}
+
+.awards-description[b-jvlxeczipd] {
+  margin-bottom: 1rem;
+  max-width: 80%;
+  list-style: none;
+}
+
+.awards-description li[b-jvlxeczipd] {
+  color: #6c757d;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+}
+.awards-description li span[b-jvlxeczipd] {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  padding-right: 8px;
+}
+
+.awards-description li p[b-jvlxeczipd] {
+  margin: 0;
+  color: #6c757d;
+  font-size: 16px;
+}
+/* _content/BlazorBase/Pages/Education.razor.rz.scp.css */
+.education-container[b-azs2gmgc6g] {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #f8f9fa;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  flex-direction: column;
+  font-family: "Saira Extra Condensed", "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+
+.heading[b-azs2gmgc6g] {
+  margin-bottom: 3rem;
+  font-size: calc(1.475rem + 2.7vw);
+  text-transform: uppercase;
+}
+
+.education-item[b-azs2gmgc6g] {
+  width: 100%;
+}
+
+.education-title[b-azs2gmgc6g] {
+  display: flex;
+  justify-content: space-between;
+}
+
+.education-title .left[b-azs2gmgc6g] {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #343a40;
+}
+
+.education-title .right[b-azs2gmgc6g] {
+  color: #bd5d38;
+  font-size: 16px;
+}
+
+.education-subtitle[b-azs2gmgc6g] {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #6c757d;
+}
+
+.education-description[b-azs2gmgc6g] {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  max-width: 80%;
+}
+
+.education-description p[b-azs2gmgc6g] {
+  color: #6c757d;
+  font-size: 16px;
+}
+/* _content/BlazorBase/Pages/Experience.razor.rz.scp.css */
+.experience-container[b-4w3hfv4szp] {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #f8f9fa;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  flex-direction: column;
+  font-family: "Saira Extra Condensed", "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+
+.heading[b-4w3hfv4szp] {
+  margin-bottom: 3rem;
+  font-size: calc(1.475rem + 2.7vw);
+  text-transform: uppercase;
+}
+.experience-item[b-4w3hfv4szp] {
+  width: 100%;
+}
+
+.experience-title[b-4w3hfv4szp] {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience-title .left[b-4w3hfv4szp] {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #343a40;
+}
+
+.experience-title .right[b-4w3hfv4szp] {
+  color: #bd5d38;
+  font-size: 16px;
+}
+
+.experience-subtitle[b-4w3hfv4szp] {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #6c757d;
+}
+
+.experience-description[b-4w3hfv4szp] {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  max-width: 80%;
+}
+
+.experience-description p[b-4w3hfv4szp] {
+  color: #6c757d;
+  font-size: 16px;
+}
+/* _content/BlazorBase/Pages/Interests.razor.rz.scp.css */
+.interests-container[b-e5gslfrktg] {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #f8f9fa;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  flex-direction: column;
+  font-family: "Saira Extra Condensed", "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+
+.heading[b-e5gslfrktg] {
+  margin-bottom: 3rem;
+  font-size: calc(1.475rem + 2.7vw);
+  text-transform: uppercase;
+}
+
+.interests-item[b-e5gslfrktg] {
+  width: 100%;
+}
+
+.interests-description[b-e5gslfrktg] {
+  margin-bottom: 1rem;
+  max-width: 80%;
+}
+
+.interests-description p[b-e5gslfrktg] {
+  color: #6c757d;
+  font-size: 16px;
+  margin-top: 16px;
+}
+/* _content/BlazorBase/Pages/Skills.razor.rz.scp.css */
+.skills-container[b-z8t0o2o9zw] {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #f8f9fa;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  flex-direction: column;
+  font-family: "Saira Extra Condensed", "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+
+.heading[b-z8t0o2o9zw] {
+  margin-bottom: 3rem;
+  font-size: calc(1.475rem + 2.7vw);
+  text-transform: uppercase;
+}
+
+.skills-item[b-z8t0o2o9zw] {
+  width: 100%;
+}
+
+.skills-subtitle[b-z8t0o2o9zw] {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #6c757d;
+}
+.skills-icons[b-z8t0o2o9zw],
+.skills-description[b-z8t0o2o9zw] {
+  margin-bottom: 1rem;
+  max-width: 80%;
+  list-style: none;
+}
+
+.skills-icons[b-z8t0o2o9zw] {
+  display: flex;
+}
+
+.skills-icons li[b-z8t0o2o9zw] {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding-right: 8px;
+}
+
+.skills-description li[b-z8t0o2o9zw] {
+  color: #6c757d;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+}
+.skills-description li span[b-z8t0o2o9zw] {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  padding-right: 8px;
+}
+
+.skills-description li p[b-z8t0o2o9zw] {
+  margin: 0;
+  color: #6c757d;
+  font-size: 16px;
+}
+/* _content/BlazorBase/Shared/MainLayout.razor.rz.scp.css */
+.page[b-1wxhx5kwhp] {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+main[b-1wxhx5kwhp] {
+  flex: 1;
+}
+
+.sidebar[b-1wxhx5kwhp] {
+  background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+  width: 17rem;
+}
+
+.top-row[b-1wxhx5kwhp] {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #d6d5d5;
+  justify-content: flex-end;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.top-row[b-1wxhx5kwhp]  a,
+.top-row .btn-link[b-1wxhx5kwhp] {
+  white-space: nowrap;
+  margin-left: 1.5rem;
+}
+
+.top-row a:first-child[b-1wxhx5kwhp] {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 640.98px) {
+  .top-row:not(.auth)[b-1wxhx5kwhp] {
+    display: none;
+  }
+
+  .top-row.auth[b-1wxhx5kwhp] {
+    justify-content: space-between;
+  }
+
+  .top-row a[b-1wxhx5kwhp],
+  .top-row .btn-link[b-1wxhx5kwhp] {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 641px) {
+  .page[b-1wxhx5kwhp] {
+    flex-direction: row;
+  }
+
+  .sidebar[b-1wxhx5kwhp] {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+  }
+
+  .top-row[b-1wxhx5kwhp] {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  .top-row[b-1wxhx5kwhp],
+  article[b-1wxhx5kwhp] {
+    padding-left: 2rem !important;
+    padding-right: 1.5rem !important;
+  }
+}
+/* _content/BlazorBase/Shared/NavMenu.razor.rz.scp.css */
+.navbar-content[b-fdwozry3b9] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background: #bd5d38;
+}
+
+.avatar[b-fdwozry3b9] {
+  width: 160px;
+  height: 160px;
+  margin-bottom: 12px;
+}
+
+.avatar img[b-fdwozry3b9] {
+  width: 100%;
+  height: auto;
+  border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+}
+.navbar-toggler[b-fdwozry3b9] {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-fdwozry3b9] {
+  height: 3.5rem;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.navbar-brand[b-fdwozry3b9] {
+  font-size: 1.1rem;
+}
+
+.oi[b-fdwozry3b9] {
+  width: 2rem;
+  font-size: 1.1rem;
+  vertical-align: text-top;
+  top: -2px;
+}
+
+.nav-item[b-fdwozry3b9] {
+  font-size: 0.9rem;
+}
+
+.nav-item[b-fdwozry3b9]  a {
+  color: #d7d7d7;
+  border-radius: 4px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  line-height: 3rem;
+  justify-content: center;
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
+.nav-item[b-fdwozry3b9]  a.active {
+  color: white;
+}
+
+.nav-item[b-fdwozry3b9]  a:hover {
+  color: white;
+}
+
+@media (min-width: 641px) {
+  .navbar-toggler[b-fdwozry3b9] {
+    display: none;
+  }
+
+  .collapse[b-fdwozry3b9] {
+    /* Never collapse the sidebar for wide screens */
+    display: block;
+  }
+}

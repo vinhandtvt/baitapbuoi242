@@ -1,0 +1,50 @@
+.awards-container[b-jvlxeczipd] {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #f8f9fa;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  flex-direction: column;
+  font-family: "Saira Extra Condensed", "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+
+.heading[b-jvlxeczipd] {
+  margin-bottom: 3rem;
+  font-size: calc(1.475rem + 2.7vw);
+  text-transform: uppercase;
+}
+
+.awards-item[b-jvlxeczipd] {
+  width: 100%;
+}
+
+.awards-description[b-jvlxeczipd] {
+  margin-bottom: 1rem;
+  max-width: 80%;
+  list-style: none;
+}
+
+.awards-description li[b-jvlxeczipd] {
+  color: #6c757d;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+}
+.awards-description li span[b-jvlxeczipd] {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  padding-right: 8px;
+}
+
+.awards-description li p[b-jvlxeczipd] {
+  margin: 0;
+  color: #6c757d;
+  font-size: 16px;
+}

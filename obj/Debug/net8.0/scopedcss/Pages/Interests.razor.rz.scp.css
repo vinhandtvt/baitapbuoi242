@@ -1,0 +1,36 @@
+.interests-container[b-e5gslfrktg] {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #f8f9fa;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  flex-direction: column;
+  font-family: "Saira Extra Condensed", "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+
+.heading[b-e5gslfrktg] {
+  margin-bottom: 3rem;
+  font-size: calc(1.475rem + 2.7vw);
+  text-transform: uppercase;
+}
+
+.interests-item[b-e5gslfrktg] {
+  width: 100%;
+}
+
+.interests-description[b-e5gslfrktg] {
+  margin-bottom: 1rem;
+  max-width: 80%;
+}
+
+.interests-description p[b-e5gslfrktg] {
+  color: #6c757d;
+  font-size: 16px;
+  margin-top: 16px;
+}

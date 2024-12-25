@@ -1,0 +1,54 @@
+﻿<div class="navbar-content">
+    <div class="avatar">
+        <img src="images/profile.jpg" alt="profile image" class="w-full h-full" />
+    </div>
+    <div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+        <nav class="flex-column">
+            <div class="nav-item">
+                <NavLink class="nav-link text-uppercase" href="about" Match="NavLinkMatch.All">
+                    about
+                </NavLink>
+            </div>
+            <div class="nav-item">
+                <NavLink class="nav-link text-uppercase" href="experience" Match="NavLinkMatch.All">
+                    experience
+                </NavLink>
+            </div>
+            <div class="nav-item">
+                <NavLink class="nav-link text-uppercase" href="education" Match="NavLinkMatch.All">
+                    education
+                </NavLink>
+            </div>
+
+            <div class="nav-item">
+                <NavLink class="nav-link text-uppercase" href="skills" Match="NavLinkMatch.All">
+                    skills
+                </NavLink>
+            </div>
+
+            <div class="nav-item">
+                <NavLink class="nav-link text-uppercase" href="interests" Match="NavLinkMatch.All">
+                    interests
+                </NavLink>
+            </div>
+
+            <div class="nav-item">
+                <NavLink class="nav-link text-uppercase" href="awards" Match="NavLinkMatch.All">
+                    awards
+                </NavLink>
+            </div>
+        </nav>
+    </div>
+</div>
+
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}

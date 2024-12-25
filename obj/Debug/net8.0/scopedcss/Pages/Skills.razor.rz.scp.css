@@ -1,0 +1,69 @@
+.skills-container[b-z8t0o2o9zw] {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #f8f9fa;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  flex-direction: column;
+  font-family: "Saira Extra Condensed", "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+
+.heading[b-z8t0o2o9zw] {
+  margin-bottom: 3rem;
+  font-size: calc(1.475rem + 2.7vw);
+  text-transform: uppercase;
+}
+
+.skills-item[b-z8t0o2o9zw] {
+  width: 100%;
+}
+
+.skills-subtitle[b-z8t0o2o9zw] {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #6c757d;
+}
+.skills-icons[b-z8t0o2o9zw],
+.skills-description[b-z8t0o2o9zw] {
+  margin-bottom: 1rem;
+  max-width: 80%;
+  list-style: none;
+}
+
+.skills-icons[b-z8t0o2o9zw] {
+  display: flex;
+}
+
+.skills-icons li[b-z8t0o2o9zw] {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding-right: 8px;
+}
+
+.skills-description li[b-z8t0o2o9zw] {
+  color: #6c757d;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+}
+.skills-description li span[b-z8t0o2o9zw] {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  padding-right: 8px;
+}
+
+.skills-description li p[b-z8t0o2o9zw] {
+  margin: 0;
+  color: #6c757d;
+  font-size: 16px;
+}

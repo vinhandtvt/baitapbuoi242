@@ -1,0 +1,61 @@
+.experience-container[b-4w3hfv4szp] {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #f8f9fa;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  flex-direction: column;
+  font-family: "Saira Extra Condensed", "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+
+.heading[b-4w3hfv4szp] {
+  margin-bottom: 3rem;
+  font-size: calc(1.475rem + 2.7vw);
+  text-transform: uppercase;
+}
+.experience-item[b-4w3hfv4szp] {
+  width: 100%;
+}
+
+.experience-title[b-4w3hfv4szp] {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience-title .left[b-4w3hfv4szp] {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #343a40;
+}
+
+.experience-title .right[b-4w3hfv4szp] {
+  color: #bd5d38;
+  font-size: 16px;
+}
+
+.experience-subtitle[b-4w3hfv4szp] {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #6c757d;
+}
+
+.experience-description[b-4w3hfv4szp] {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  max-width: 80%;
+}
+
+.experience-description p[b-4w3hfv4szp] {
+  color: #6c757d;
+  font-size: 16px;
+}
